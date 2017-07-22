@@ -14,6 +14,8 @@ if you use this you need to set your key and check the java and cassandra versio
 
 once the cluster is up:
 
+example output for review:
+
 # vagrant ssh node 1
 root@node1:~# cd /opt/apache-cassandra-3.0.14/bin/
 root@node1:/opt/apache-cassandra-3.0.14/bin# ./nodetool status
